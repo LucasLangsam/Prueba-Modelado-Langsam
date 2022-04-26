@@ -27,7 +27,7 @@ public class Ejercicio : MonoBehaviour
         else if (codigo == "PG")
         {
             Debug.Log("Para ese período se necesitan" + (700 * cantDias));
-            Debug.Log("Esta cantidad va a tener un costo de $" + (80 * 7 * cantDias));
+            Debug.Log("Esta cantidad va a tener un costo de $" + (80 *  7 * cantDias));
         }
         else if (codigo != "G")
         {
