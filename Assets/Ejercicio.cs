@@ -16,18 +16,18 @@ public class Ejercicio : MonoBehaviour
 
         else if (codigo == "G")
         {
-            Debug.Log("Para ese período se necesitan" + (300 cantDias));
-            Debug.Log("Esta cantidad va a tener un costo de $" + (80 3 cantDias));
+            Debug.Log("Para ese período se necesitan" + (300 * cantDias));
+            Debug.Log("Esta cantidad va a tener un costo de $" + (80 * 3 * cantDias));
         }
         else if (codigo == "PP")
         {
-            Debug.Log("Para ese período se necesitan" + (400 cantDias));
-            Debug.Log("Esta cantidad va a tener un costo de $" + (80 4 cantDias));
+            Debug.Log("Para ese período se necesitan" + (400 * cantDias));
+            Debug.Log("Esta cantidad va a tener un costo de $" + (80 * 4 * cantDias));
         }
         else if (codigo == "PG")
         {
-            Debug.Log("Para ese período se necesitan" + (700 cantDias));
-            Debug.Log("Esta cantidad va a tener un costo de $" + (80 7 * cantDias));
+            Debug.Log("Para ese período se necesitan" + (700 * cantDias));
+            Debug.Log("Esta cantidad va a tener un costo de $" + (80 * 7 * cantDias));
         }
         else if (codigo != "G")
         {
